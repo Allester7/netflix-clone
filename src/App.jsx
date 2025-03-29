@@ -1,9 +1,9 @@
-import "./App.css";
+import Body from './components/Body.jsx';
 
 function App() {
   return (
-    <div clssName="flex">
-      <h1 className="font-bold bg-green-300 text-blue-400">Hello Let's Begin</h1>
+    <div>
+      <Body/>
     </div>
   );
 }
